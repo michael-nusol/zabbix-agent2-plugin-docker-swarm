@@ -12,7 +12,7 @@ import (
 	"golang.zabbix.com/sdk/errs"
 )
 
-const dockerAPIVersion = "v1.47"
+const dockerAPIVersion = "v1.41"
 
 type client struct {
 	client http.Client
